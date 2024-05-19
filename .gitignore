@@ -1,0 +1,4 @@
+node_modules
+dist
+.vscode
+universal-country-catalog*.tgz
