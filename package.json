@@ -16,6 +16,13 @@
   ],
   "author": "Sethuramalingam Duraisamy",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sethuramalingam-art/Universal-Country-Catalog"
+  },
+  "bugs": {
+    "url": "https://github.com/Sethuramalingam-art/Universal-Country-Catalog/issues"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
