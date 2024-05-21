@@ -16,6 +16,25 @@ npm pack
 
 once this cmd executed it will generate .tgz file(check in folder) for npm package
 
+for local check:
+
+for local check include this file in another react source package json with
+"Universal-Country-Catalog":"file: xxx.tgz"
+
+after all done got to terminal
+
+npm login
+
+login with
+
+sethuram.duraisamy
+sethuram.duraisamy140891@gmail.com
+2\*\*4@G@#$@#ny
+
+npm publish
+
+our library is published to npm
+
 =========================================================================================================
 
 # universal-country-catalog
