@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 
 const useCountry = (name) => {
   const [country, setCountry] = useState([]);
@@ -10,9 +10,11 @@ const useCountry = (name) => {
       try {
         setLoading(true);
         const response = await fetch(
-          `https://restcountires.com/v3.1/name/${name}`
+          `https://restcountries.com/v3.1/name/${name}`
         );
+
         const result = await response.json();
+
         setLoading(false);
         setCountry(result);
       } catch (error) {
@@ -20,7 +22,7 @@ const useCountry = (name) => {
       }
     };
     fetchCountryInfo();
-  }, []);
+  }, [name]);
 
   return { loading, country, error };
 };
